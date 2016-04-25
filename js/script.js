@@ -11,6 +11,14 @@ while (count < 11) {
 document.write("<h1>Loops</h1>");
 document.write("<ol>" + list + "</ol>");
 
-var arr = { "q1", "q2" };
+var arr = { "q1", "q2", "q3", "q4" };
 
-document.write("<p>" + arr + "</p>")
+var secondList = "<ul>"; 
+
+while (i < arr.length) {
+  secondList +=("<li>" + arr[i] + "</li>");
+}
+secondList += "</ul>";
+document.write(secondList);
+
+
