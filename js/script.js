@@ -17,7 +17,7 @@ var secondList = "<ul>";
 var i = 0;
 
 while (i < arr.length) {
-  secondList +=("<li>" + arr[i] + "</li>");
+  secondList += "<li>" + arr[i] + "</li>";
   i++;
 }
 secondList += "</ul>";
